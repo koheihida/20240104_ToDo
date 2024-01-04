@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  color: #666;
 }
 
 input {
@@ -37,6 +38,16 @@ button:hover {
   margin: 8px;
   border-radius: 8px;
   min-height: 200px;
+}
+
+.complete-area {
+  border:  2px #aacfd0;
+  width: 400px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+  min-height: 200px;
+  background-color: #c9dede;
 }
 
 .title {
