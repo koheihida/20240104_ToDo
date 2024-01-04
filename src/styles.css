@@ -56,7 +56,7 @@ button:hover {
  font-weight: bold; 
 }
 
-.list-low{
+.list-row{
   display: flex;
   align-items: center;
 }
