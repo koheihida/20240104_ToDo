@@ -20,9 +20,16 @@ const onClickAdd = () => {
   // 完了ボタンの実装
   const completeButton = document.createElement("button");
   completeButton.innerText = "完了";
+  completeButton.addEventListener("click", () => {
+    alert("完了");
+  });
   // 削除ボタンの実装
   const deleteButton = document.createElement("button");
   deleteButton.innerText = "削除";
+  deleteButton.addEventListener("click", () => {
+    const deleteTarget = deleteButton.closest("li");
+    document.getElementById("incomplete-list").removeChild(deleteTarget);
+  });
 
   // liタグの子要素に各要素を設定
   div.appendChild(p);
